@@ -4,7 +4,7 @@
 ;; Author: myuhe <yuhei.maeda_at_gmail.com>
 ;; Maintainer: myuhe
 ;; Copyright (C) 2010,2011,2012 myuhe all rights reserved.
-;; Created: :2011-12-19
+;; Created: 2010-05-24
 ;; Version: 0.0.1
 ;; Keywords: convenience
 ;; URL: https://github.com/myuhe/anything-R.el
