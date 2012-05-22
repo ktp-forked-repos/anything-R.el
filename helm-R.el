@@ -27,10 +27,6 @@
 
 ;;; Commentary:
 ;;
-;; It is necessary to Some Anything and ESS Configurations for using R before
-
-;;; Installation:
-;;
 ;; Put the helm-R.el, helm.el and ESS to your
 ;; load-path.
 ;; Add to .emacs:
@@ -202,9 +198,11 @@
   :type 'list
   :group 'helm-R)
 
+;;;###autoload
 (defun helm-for-R ()
   "Preconfigured `helm' for GNU R."
   (interactive)
   (helm-other-buffer helm-for-R-list "*helm for GNU R*"))
 
 (provide 'helm-R)
+;;; helm-R.el ends here
